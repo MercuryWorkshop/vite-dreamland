@@ -21,5 +21,5 @@ const App: Component<
 }
 
 window.addEventListener('load', () => {
-    document.body.appendChild(<App />)
+    document.getElementById("app")!.replaceWith(<App />);
 })
